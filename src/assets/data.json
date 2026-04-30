@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Arif Rahman",
+    "description": "A mysterious tale of a village surrounded by a forest where no sound exists after sunset.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://example.com/images/silent-forest.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Next.js",
+    "author": "Sarah Khan",
+    "description": "A comprehensive guide to building scalable web applications using Next.js.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://example.com/images/mastering-nextjs.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Quantum Wonders",
+    "author": "Dr. Imran Hossain",
+    "description": "An introduction to the fascinating world of quantum physics and its real-life applications.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://example.com/images/quantum-wonders.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Lost Diary",
+    "author": "Nusrat Jahan",
+    "description": "A young girl discovers an old diary that reveals secrets of a forgotten past.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://example.com/images/lost-diary.jpg"
+  },
+  {
+    "id": 5,
+    "title": "JavaScript Deep Dive",
+    "author": "Mahmudul Hasan",
+    "description": "Explore advanced JavaScript concepts and improve your coding skills.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://example.com/images/js-deep-dive.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Cosmos Explained",
+    "author": "Dr. Farzana Ali",
+    "description": "A journey through space, stars, and galaxies to understand the universe.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://example.com/images/cosmos-explained.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Echoes of the Past",
+    "author": "Tariq Ahmed",
+    "description": "A historical fiction novel blending love, war, and destiny.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://example.com/images/echoes-past.jpg"
+  },
+  {
+    "id": 8,
+    "title": "React in Action",
+    "author": "Ayesha Sultana",
+    "description": "Learn how to build modern UI applications using React.js effectively.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://example.com/images/react-in-action.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Genetics Simplified",
+    "author": "Dr. Kamal Uddin",
+    "description": "An easy-to-understand guide to genetics and DNA science.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://example.com/images/genetics.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Midnight Train",
+    "author": "Sharmeen Akter",
+    "description": "A suspense thriller set on a train that never reaches its destination.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://example.com/images/midnight-train.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Clean Code Principles",
+    "author": "Rakib Chowdhury",
+    "description": "Best practices and principles for writing clean and maintainable code.",
+    "category": "Tech",
+    "available_quantity": 13,
+    "image_url": "https://example.com/images/clean-code.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Brain and Beyond",
+    "author": "Dr. Shafiqur Rahman",
+    "description": "Insights into neuroscience and how the human brain functions.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://example.com/images/brain-beyond.jpg"
+  }
+]
