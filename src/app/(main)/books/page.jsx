@@ -1,11 +1,11 @@
+import BooksPage from "@/components/BooksPage";
+import { getData } from "@/lib/data";
 
+const page = async () => {
+  
+  const books = await getData();
 
-const page = () => {
-    return (
-        <div>
-            <h1>Books</h1>
-        </div>
-    );
+  return <BooksPage books={books} />;
 };
 
 export default page;

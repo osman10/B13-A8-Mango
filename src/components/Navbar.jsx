@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { PiBookOpenTextLight } from "react-icons/pi";
 import Navlink from "./Navlink";
 
 const Navbar = () => {
@@ -25,8 +24,8 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link href="/">
-            <p className="flex items-center gap-1 font-extrabold text-xl bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
-              <PiBookOpenTextLight />
+            <p className="font-extrabold text-xl bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
+              
               Book Lover
             </p>
           </Link>

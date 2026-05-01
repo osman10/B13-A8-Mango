@@ -1,15 +1,33 @@
 
 import Image from "next/image";
+import Link from "next/link";
 
 
 // components/Card.jsx
 const Card = ({ item }) => {
+  const { id, title, description, category, image_url } = item;
+
+
   return (
-    <div className="border p-4 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold">{item.title}</h2>
-      <p className="text-gray-600">{item.description}</p>
-      <span className="text-sm text-blue-500">{item.category}</span>
-      <Image src={item.image_url} alt={item.title} width={300} height={400} className="w-full h-48 object-cover mt-4 rounded" />
+    <div className="card bg-base-100 w-75 shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <figure>
+        <Image
+          src={image_url}
+          alt={title}
+          width={300}
+          height={200}
+          className="object-cover"
+        />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">{title}</h2>
+        <p>{description}</p>
+        <div className="card-actions justify-end">
+          <Link href={`/books/${id}`} className="btn bg-gradient text-white" >
+            View Details
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
