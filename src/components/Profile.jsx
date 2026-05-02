@@ -21,11 +21,13 @@ const Profile = () => {
                     />
                 )}
                 <div className="text-center">
-                <h2 className="text-2xl font-bold">{session.user.name}</h2>
+                    <h2 className="text-2xl font-bold">{session.user.name}</h2>
                     <p className="text-gray-600">{session.user.email}</p>
                 </div>
-                    
-                </div>
+                <Link href="/updateprofile" className="text-white font-bold bg-amber-600 px-4 py-2 rounded-lg hover:bg-amber-700">
+                    Update Profile
+                </Link>
+            </div>
 
         );
     }
