@@ -22,7 +22,7 @@ const Hero = async () => {
                                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                                 quasi. In deleniti eaque aut repudiandae et a id nisi.
                             </p>
-                            <Link href="/books" className="btn bg-gradient text-white">Read Book</Link>
+                            <Link href="/books" className="btn bg-gradient text-white">View Books</Link>
                         </div>
                     </div>
                 </div>

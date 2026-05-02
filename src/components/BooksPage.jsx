@@ -1,7 +1,7 @@
 "use client";
-
 import { useState } from "react";
 import Card from "@/components/Card";
+import Marque from "./Marque";
 
 const BooksPage = ({ books }) => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -28,6 +28,9 @@ const BooksPage = ({ books }) => {
 
   return (
     <div className="container mx-auto p-4">
+      <Marque />
+
+
       <h1 className="text-3xl font-bold mb-6">
         Book List
       </h1>
