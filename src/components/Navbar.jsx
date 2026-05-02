@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navlink from "./Navlink";
+import LoginStatus from "./LoginStatus";
 
 const Navbar = () => {
   return (
@@ -42,7 +43,7 @@ const Navbar = () => {
 
         {/* END */}
         <div className="navbar-end">
-          <a className="btn">Login</a>
+          <LoginStatus/>
         </div>
 
       </div>

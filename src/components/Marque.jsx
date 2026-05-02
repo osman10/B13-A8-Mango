@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Marque = () => {
     return (
-        <div className="bg-slate-200 flex items-center mb-2">
+        <div className="bg-slate-100 flex items-center mb-2">
             <div className="bg-red-600 p-2 text-white font-bold flex items-center justify-center">
                 <p className="text-center">Popular Book </p>
             </div>

@@ -1,8 +1,10 @@
+import Register from '@/components/Register';
 
-const Register = () => {
+
+const page = () => {
     return (
         <div>
-            <h1>Register</h1>
+            <Register />
         </div>
     );
 };
