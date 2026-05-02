@@ -16,7 +16,8 @@ const Card = ({ item }) => {
           alt={title}
           width={300}
           height={200}
-          className="object-cover"
+          sizes="(max-width: 640px) 100vw, 200px"
+          className="w-full sm:w-[200px] h-auto rounded-lg"
         />
       </figure>
       <div className="card-body">
