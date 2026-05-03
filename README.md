@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📚 Online Book Borrowing Platform
+🥭 B13-A8-Mango
 
-## Getting Started
+A seamless and modern web application designed to digitize the traditional library experience. Users can explore a vast collection of books, filter by categories, and borrow titles digitally.
 
-First, run the development server:
+🚀 Live Demo
 
-```bash
+https://b13-a8-mango.vercel.app/
+
+🧰 Technologies Used
+Next.js – React framework for building fast and scalable applications
+Tailwind CSS – Utility-first CSS framework for modern UI design
+DaisyUI – Tailwind CSS component library for beautiful UI elements
+BetterAuth – Authentication solution for secure user management
+React Toastify – Elegant notifications and alerts
+Swiper.js – Touch slider for interactive UI components
+✨ Features
+📖 Browse a wide collection of books
+🔍 Filter books by categories
+📚 Borrow books digitally
+🔐 Secure authentication system
+🎨 Clean and responsive UI design
+🔔 Real-time notifications with toast messages
+📱 Fully responsive for all devices
+📂 Project Structure (Simplified)
+B13-A8-Mango/
+│── app/
+│── components/
+│── public/
+│── styles/
+│── lib/
+│── hooks/
+│── pages/
+│── package.json
+│── README.md
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/your-username/B13-A8-Mango.git
+
+# Navigate to the project folder
+cd B13-A8-Mango
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌐 Environment Variables
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create a .env.local file in the root directory and add:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_BASE_URL=your_base_url
+AUTH_SECRET=your_auth_secret
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+(Update based on your BetterAuth configuration)
 
-## Learn More
+📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+(Add screenshots or UI previews here)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔮 Future Improvements
+📊 Admin dashboard for managing books
+⭐ Book reviews and ratings
+📅 Borrowing history tracking
+🔔 Email notifications
+📦 API integration for larger book datasets
+🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-## Deploy on Vercel
+📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+
+Osman Goni
+📧 (osman.mirpur55@gmail.com)
