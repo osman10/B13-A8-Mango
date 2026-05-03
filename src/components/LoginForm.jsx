@@ -58,14 +58,12 @@ const LoginForm = () => {
 
   const handleGoogleLogin = async () => {
    
-   
+   {setLoading(true)}
     await authClient.signIn.social({
       provider: "google",
       callbackURL: "/",
     });
-
-
-    
+    {setLoading(false)}
   };
 
 
