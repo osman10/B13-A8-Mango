@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
+  import { toast } from 'react-toastify';
 
 const Register = () => {
   const router = useRouter();
@@ -32,7 +33,7 @@ const Register = () => {
       },
       {
         onSuccess: () => {
-          alert("Registration successful!");
+          toast.success("Registration successful!");
           router.push("/login"); // ✅ force redirect
         },
         onError: (ctx) => {
@@ -41,7 +42,7 @@ const Register = () => {
             ctx?.error ||
             "Registration failed";
 
-          alert(
+          toast.error(
             typeof message === "string"
               ? message
               : JSON.stringify(message)
@@ -51,7 +52,7 @@ const Register = () => {
     );
 
     if (error) {
-      alert(error?.message || "Something went wrong");
+      toast.error(error?.message || "Something went wrong");
     }
 
     setLoading(false);

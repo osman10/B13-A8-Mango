@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
+import { toast } from 'react-toastify';
 
 const LoginStatus = () => {
   const { data: session } = authClient.useSession();
@@ -9,6 +10,7 @@ const LoginStatus = () => {
 
   const handleLogout = async () => {
     await authClient.signOut();
+    toast.success("You have been logged out.");
     router.push("/"); // redirect to home
   };
 

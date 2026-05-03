@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
+import { toast } from 'react-toastify';
 
 const LoginForm = () => {
   const router = useRouter();
@@ -30,7 +31,7 @@ const LoginForm = () => {
       },
       {
         onSuccess: () => {
-          alert("Login successful!");
+          toast.success("Login successful!");
           router.push("/"); // ✅ force redirect
         },
         onError: (ctx) => {
@@ -39,7 +40,7 @@ const LoginForm = () => {
             ctx?.error ||
             "Login failed";
 
-          alert(
+          toast.error(
             typeof message === "string"
               ? message
               : JSON.stringify(message)
@@ -49,7 +50,7 @@ const LoginForm = () => {
     );
 
     if (error) {
-      alert(error?.message || "Something went wrong");
+      toast.error(error?.message || "Something went wrong");
     }
 
     setLoading(false);
@@ -61,6 +62,10 @@ const LoginForm = () => {
       callbackURL: "/",
     });
   };
+
+
+
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
