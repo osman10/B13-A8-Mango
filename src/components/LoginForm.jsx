@@ -154,13 +154,10 @@ const LoginForm = () => {
             alt="Google"
             className="w-5 h-5"
           />
-          Sign in with Google
+          {loading ? "Logging in..." : "Sign in with Google"}
+          
         </button>
-          {loading && (
-            <p className="text-center text-gray-500 mt-4">
-              Login...
-            </p>
-          )}
+
       </div>
     </div>
   );
