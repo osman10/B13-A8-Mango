@@ -57,10 +57,15 @@ const LoginForm = () => {
   };
 
   const handleGoogleLogin = async () => {
+   
+   
     await authClient.signIn.social({
       provider: "google",
       callbackURL: "/",
     });
+
+
+    
   };
 
 
@@ -151,7 +156,11 @@ const LoginForm = () => {
           />
           Sign in with Google
         </button>
-
+          {loading && (
+            <p className="text-center text-gray-500 mt-4">
+              Login...
+            </p>
+          )}
       </div>
     </div>
   );

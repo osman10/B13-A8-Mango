@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-base-200 px-4 text-center">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-base-200 px-4 text-center bg-white">
       
       {/* Image */}
       <div className="max-w-md w-full">
