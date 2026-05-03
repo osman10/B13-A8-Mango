@@ -17,6 +17,7 @@ const LoginForm = () => {
   } = useForm();
 
   const [loading, setLoading] = useState(false);
+  const[googleLoading, setGoogleLoading] = useState(false);
 
   const onSubmit = async (formData) => {
     setLoading(true);
@@ -58,12 +59,12 @@ const LoginForm = () => {
 
   const handleGoogleLogin = async () => {
    
-   {setLoading(true)}
+   {setGoogleLoading(true)}
     await authClient.signIn.social({
       provider: "google",
       callbackURL: "/",
     });
-    {setLoading(false)}
+    {setGoogleLoading(false)}
   };
 
 
@@ -152,7 +153,7 @@ const LoginForm = () => {
             alt="Google"
             className="w-5 h-5"
           />
-          {loading ? "Logging in..." : "Sign in with Google"}
+          {googleLoading ? "Logging in..." : "Sign in with Google"}
           
         </button>
 
