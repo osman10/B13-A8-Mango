@@ -1,5 +1,5 @@
-📚 Online Book Borrowing Platform
-🥭 B13-A8-Mango
+# 📚 Online Book Borrowing Platform
+## 🥭 B13-A8-Mango
 
 A seamless and modern web application designed to digitize the traditional library experience. Users can explore a vast collection of books, filter by categories, and borrow titles digitally.
 
