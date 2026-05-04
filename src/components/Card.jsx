@@ -10,7 +10,7 @@ const Card = ({ item }) => {
 
   return (
     <div className="card bg-base-100 w-75 shadow-sm hover:shadow-lg transition-shadow duration-300">
-      <figure>
+      <div>
         <Image
           src={image_url}
           alt={title}
@@ -19,7 +19,7 @@ const Card = ({ item }) => {
           sizes="(max-width: 640px) 100vw, 200px"
           className="w-full sm:w-[200px] h-auto rounded-lg"
         />
-      </figure>
+      </div>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
