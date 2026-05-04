@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Navlink from "./Navlink";
 import LoginStatus from "./LoginStatus";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -24,12 +25,18 @@ const Navbar = () => {
           </div>
 
           {/* Logo */}
-          <Link href="/">
+         
+                      <Link href="/">
+                       <div className="flex items-center gap-2">
+                           <Image src="/images/book.png" alt="Logo" width={75} height={40} />
             <p className="font-extrabold text-xl bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
               
               Book Lover
             </p>
+         
+              </div>
           </Link>
+        
         </div>
 
         {/* CENTER */}
