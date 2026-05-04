@@ -67,8 +67,8 @@ const BookDetails = ({ books }) => {
                     <Image
                         src={image_url}
                         className="max-w-sm rounded-lg shadow-2xl"
-                        width={400}
-                        height={400}
+                        width={340}
+                        height={350}
                         alt={title}
                     />
                     <div>
