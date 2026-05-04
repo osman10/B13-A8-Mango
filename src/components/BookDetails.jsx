@@ -60,7 +60,7 @@ const BookDetails = ({ books }) => {
     const { title, author, description, category, image_url } = book;
 
     // ✅ Logged in → show book
-    if (!session) {
+    if (session) {
         return (
             <div className="hero bg-base-200 min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
